@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Filmovi2021Final</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pocetna_tekst">Lista najbolje ocijenjenih filmova na jednom mjestu!</string>
+    <string name="pocetna_tekst2">Imate problema sa odabirom filma?</string>
+    <string name="pocetna_tekst3">Krenite sa istraživanjem filmova!</string>
+    <string name="pocetna_dugme_kreni">Kreni</string>
+    <string name="informacije">Informacije</string>
+    <string name="problem_konekcija">Problem sa konekcijom!</string>
+    <string name="ime_filma">Ime filma:</string>
+    <string name="podaci_o_filmu">Podaci o filmu:</string>
+    <string name="godina_izdanja">Godina izdanja:</string>
+    <string name="trajanje_filma">Dužina filma:</string>
+    <string name="ocjena_filma">Ocjena filma:</string>
+    <string name="budzet_filma">Budžet filma:</string>
+    <string name="kratak_sadrzaj_filma">Kratak sadržaj filma:</string>
+    <string name="tv_naslov_filmovi">Katalog filmova</string>
+    <string name="tv_podnaslov_filmovi">Najpopularniji filmovi u 2021. godini</string>
+    <string name="dugme_vise">Detalji</string>
+    <string name="sortiraj">Sortiraj po godini izdanja</string>
+    <string name="spasi_film">Spasi film</string>
+    <string name="informacijeText">Aplikacija Movies napravljena za ljude koji su u dilemi koji film gledati!</string>
+    <string name="informacijeText1">Jednostavna aplikacija ispunjena mnogim filmovima sada je dostupna i vama!</string>
+    <string name="informacijeText2">Za sve informacije ili sponzorstvo obratite nam se na movies2021@gmail.com</string>
+    <string name="informacijeText3">Movies 2021 ©</string>
+</resources>

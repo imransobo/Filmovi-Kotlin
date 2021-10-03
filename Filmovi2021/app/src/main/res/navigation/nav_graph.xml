@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pocetniFragment">
+    <fragment
+        android:id="@+id/pocetniFragment"
+        android:name="com.example.filmovi2021final.PocetniFragment"
+        android:label="Pocetna"
+        tools:layout="@layout/fragment_pocetni">
+        <action
+            android:id="@+id/action_pocetniFragment_to_filmoviFragment2"
+            app:destination="@id/filmoviFragment" />
+        <action
+            android:id="@+id/action_pocetniFragment_to_informacijeFragment"
+            app:destination="@id/informacijeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/filmoviFragment"
+        android:name="com.example.filmovi2021final.FilmoviFragment"
+        android:label="Filmovi"
+        tools:layout="@layout/fragment_filmovi">
+        <action
+            android:id="@+id/action_filmoviFragment_to_detaljiActivity"
+            app:destination="@id/detaljiActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/detaljiActivity"
+        android:name="com.example.filmovi2021final.DetaljiActivity"
+        android:label="Detalji"
+        tools:layout="@layout/activity_detalji"/>
+    <fragment
+        android:id="@+id/informacijeFragment"
+        android:name="com.example.filmovi2021final.InformacijeFragment"
+        android:label="Info"
+        tools:layout="@layout/fragment_informacije" />
+</navigation>

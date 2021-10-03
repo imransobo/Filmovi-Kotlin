@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PocetnaFragment">
+
+
+        <ImageView
+            android:id="@+id/pocetna_pozadina"
+            android:layout_width="423dp"
+            android:layout_height="420dp"
+            android:src="@drawable/filmovi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/pocetna_tekst1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pocetna_pozadina"
+            app:layout_constraintVertical_bias="0.25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pocetna_tekst"
+            android:textColor="#F30707"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="507dp" />
+
+        <TextView
+            android:id="@+id/pocetna_tekst2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pocetna_pozadina"
+            app:layout_constraintVertical_bias="0.082"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pocetna_tekst2"
+            android:textColor="#F30707"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="458dp" />
+
+        <Button
+            android:id="@+id/pocetna_dugme_kreni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pocetna_dugme_kreni"
+            android:onClick="onKreniButtonClicked"
+            app:backgroundTint="#F30707"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pocetna_pozadina"
+            app:layout_constraintVertical_bias="0.733"
+            tools:layout_editor_absoluteY="652dp" />
+
+        <TextView
+            android:id="@+id/pocetna_tekst3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pocetna_pozadina"
+            app:layout_constraintVertical_bias="0.414"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pocetna_tekst3"
+            android:textColor="#F30707"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="584dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
